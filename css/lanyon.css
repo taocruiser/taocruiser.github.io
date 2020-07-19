@@ -465,8 +465,10 @@ a.pagination-item:hover {
 .theme-base-08 .sidebar-toggle{
   border: 1px solid #eee;
 }
-.theme-base-08 .sidebar-toggle:hover{
-  border: 2px solid #ac4142;
+@media (hover: hover) {
+  .theme-base-08 .sidebar-toggle:hover{
+    border: 2px solid #ac4142;
+  }
 }
 .theme-base-08 .masthead {
   border-bottom: 3px solid #ac4142;
